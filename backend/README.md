@@ -1,5 +1,4 @@
-# SEC Insights Backend
-Live at https://secinsights.ai/
+
 ## Setup Dev Workspace
 1. Install [pyenv](https://github.com/pyenv/pyenv#automatic-installer) and then use it to install the Python version in `.python-version`.
     1. install pyenv with `curl https://pyenv.run | bash`
@@ -56,13 +55,7 @@ Created conversation with ID 8371bbc8-a7fd-4b1f-889b-d0bc882df2a5
 Hello! How can I assist you today?
 ```
 
-## SEC Document Downloader 📃
-We have a script to easily download SEC 10-K & 10-Q files! This is a single step of the larger seed script described in the next section. Unless you have some use for just running this step on it's own, you probably want to stick to the Seed script described in the section below 🙂
-However, the setup instructions for this script are a pre-requisite for running the seed script.
 
-No API keys are needed to use this, it calls the SEC's free to use Edgar API.
-
-The instructions below explain a process to use the script to download the SEC filings, convert the to PDFs, and store them in an S3 bucket.
 
 ### Setup / Usage Instructions
 Pre-requisite setup steps to use the downloader script to load the SEC PDFs directly into an S3 bucket.
