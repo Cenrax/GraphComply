@@ -1,6 +1,6 @@
-# SEC Insights Frontend
+# Frontend
 
-This is SEC Insights, a tool that let's you analyze multiple financial documents, powered by LlamaIndex. [Live URL](https://secinsights.ai/)
+
 
 ## Technical Details
 
@@ -23,4 +23,4 @@ This app consists of two main routes,
 
 3. And before pushing to the repo, `npm run build` to catch any typescript errors (TODO: pre-commit hook)
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+F
